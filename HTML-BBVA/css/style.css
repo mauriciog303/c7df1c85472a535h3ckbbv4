@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: #eeeeee;
+}
+:host {
+    --app-primary-color: #4285f4;
+    --app-secondary-color: black;
+    display: block;
+  }
+  .bbva-header {
+    color: blue;
+    background-color: var(--app-primary-color);
+  }
+  app-header paper-icon-button {
+    --paper-icon-button-ink-color: white;
+  }
+  .drawer-list {
+    margin: 0 20px;
+  }
+  .drawer-list a {
+    display: block;
+    padding: 0 16px;
+    text-decoration: none;
+    color: var(--app-secondary-color);
+    line-height: 40px;
+  }
+  .drawer-list a.iron-selected {
+    color: black;
+    font-weight: bold;
+  }
+
+.input-bbva {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button-bbva-navy{
+    width: 100%;
+    background-color: #072146;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-bbva-dark-blue{
+    width: 100%;
+    background-color: #043263;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-bbva-core-blue{
+    width: 100%;
+    background-color: #004481;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-bbva-medium-blue{
+    width: 100%;
+    background-color: #1973B8;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-bbva-sky-blue{
+    width: 100%;
+    background-color: #5BBEFF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-bbva-aqua{
+    width: 100%;
+    background-color: #02A5A5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
