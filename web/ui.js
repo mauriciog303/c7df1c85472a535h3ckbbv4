@@ -26,7 +26,7 @@ ui.init =
     function() {
   document.getElementById('user-help').style.visibility = 'visible';
   document.getElementById('user-help-text').innerText =
-      'Add images to the classes below by clicking or holding';
+      'Agregue imagenes conforme a las flechas para entrenar un modelo facial 360';
   var controlButtons = document.getElementsByClassName('control-button');
   for (var i = 0; i < controlButtons.length; i++) {
     controlButtons[i].addEventListener('mouseover', function(event) {
@@ -232,14 +232,14 @@ ui.handler =
   document.body.setAttribute('data-active', CONTROLS[label]);
   if (controlsCaptured.length >= 2) {
     document.getElementById('train').className = 'train-button';
-    ui.trainStatus('TRAIN');
+    ui.trainStatus('ENTRENAR');
     document.getElementById('predict').className = 'test-button disabled';
     downloadModel.className = 'disabled';
     document.getElementById('user-help-text').innerText =
-        'Add more images or train the model';
+        'Agrega mas imagenes para entrenar el modelo';
   } else {
     document.getElementById('user-help-text').innerText =
-        'Minimum of 2 classes required to train the model';
+        'Por lo menos 2 tipos de clases en los modelos';
   }
 }
 
